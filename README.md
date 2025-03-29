@@ -24,11 +24,11 @@ El proyecto está organizado en los siguientes directorios:
                                     │ ├── main/
                                     │ │ ├── kotlin/
                                     │ │ │ └── labs/innovus/
-                                    │ │ │ ├── exercise1/
+                                    │ │ │ ├── exerciseUno/
                                     │ │ │ │ └── GetUserService.kt // Servicio GetUser
-                                    │ │ │ ├── exercise2/
+                                    │ │ │ ├── exerciseDos/
                                     │ │ │ │ └── ListUsersService.kt // Servicio ListUsers
-                                    │ │ │ ├── exercise3/
+                                    │ │ │ ├── exerciseTres/
                                     │ │ │ │ └── StreamUserActionsService.kt // Servicio StreamUserActions
                                     │ │ │ ├── UserServiceClient.kt // Cliente gRPC
                                     │ │ │ └── UserServiceServer.kt // Servidor gRPC
