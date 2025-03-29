@@ -8,29 +8,31 @@ Este proyecto contiene 3   implementación con gRPC en Kotlin.
 
 
 El proyecto está organizado en los siguientes directorios:
+
+**Estructura del Proyecto**
+
 BackendEngineerKotlin/
- └── grpc-kotlin-server-client/
-     ├── pom.xml         // Archivo de configuración de Maven
-     ├── src/
-     │   ├── main/
-     │   │   └── kotlin/
-     │   │       └── labs/innovus/
-     │   │           ├── ExerciseDos/
-     │   │           │   └── ListUsersService.kt  // Servicio ListUsers
-     │   │           ├── ExerciseTres/
-     │   │           │   └── StreamUserActionsService.kt // Servicio StreamUserActions
-     │   │           ├── ExerciseUno/
-     │   │           │   └── GetUserService.kt   // Servicio GetUser
-     │   │           ├── UserServiceClient.kt    // Cliente gRPC
-     │   │           └── UserServiceServer.kt    // Servidor gRPC
-     │   └── proto/
-     │       └── user_service.proto   // Definición del servicio y mensajes Protobuf
-     │
-     │   └── test/
-     │       └── kotlin/
-     │           └── labs/innovus/
-     │               └── UserServiceImplTest.kt  // Pruebas 
-     └── ...            
+└── grpc-kotlin-server-client/
+    ├── pom.xml                     // Archivo de configuración Maven
+    ├── src/
+    │   ├── main/
+    │   │   ├── kotlin/
+    │   │   │   └── labs/innovus/
+    │   │   │       ├── ExerciseDos/
+    │   │   │       │   └── ListUsersService.kt        // Servicio ListUsers
+    │   │   │       ├── ExerciseTres/
+    │   │   │       │   └── StreamUserActionsService.kt // Servicio StreamUserActions
+    │   │   │       ├── ExerciseUno/
+    │   │   │       │   └── GetUserService.kt           // Servicio GetUser
+    │   │   │       ├── UserServiceClient.kt           // Cliente gRPC
+    │   │   │       └── UserServiceServer.kt           // Servidor gRPC
+    │   │   └── proto/
+    │   │       └── user_service.proto              // Definición de servicios y mensajes Protobuf
+    │   └── test/
+    │       └── kotlin/
+    │           └── labs/innovus/
+    │               └── UserServiceImplTest.kt       // Pruebas
+    └── ...                                       
 
 * `exercise-1`: Implementación de GetUser (Unary RPC).
 * `exercise-2`: Implementación de ListUsers (Server Streaming RPC).
